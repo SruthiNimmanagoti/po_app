@@ -665,6 +665,7 @@ export default function PurchaseOrderTable() {
       const orders = res.d?.results || [];
 
       // Flatten PurchaseOrderItems correctly
+      //uyfuyuf
       const items: any[] = [];
       orders.forEach((po: any) => {
   const poItems = po.to_PurchaseOrderItem?.results || [];
