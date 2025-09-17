@@ -340,6 +340,11 @@ const DEFAULTS = {
   NetPriceAmount: '1000.00',
   Material: '', // This is always empty by default
 };
+
+
+
+
+
  
 export default function AddPurchaseOrderForm({ onSubmit, onCancel }: any) {
   const [form, setForm] = useState({ ...DEFAULTS });
